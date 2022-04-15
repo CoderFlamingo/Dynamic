@@ -1,0 +1,29 @@
+body {
+    font-family: Inter;
+    font-weight: 500;
+    background-image: url("Background.jpeg");
+    overflow-x: hide;
+}
+footer {
+    transition: all 500ms ease;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    background: #ffffff48;
+    line-height: 3;
+    font-size: 16px;
+    bottom: 0;
+    line-height: 2.6px;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.2px;
+}
+footer:hover, footer:focus {
+    font-size: 18px;
+    line-height: 20px;
+}
+canvas {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+}
